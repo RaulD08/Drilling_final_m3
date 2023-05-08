@@ -24,9 +24,6 @@ def filtro_nombres(*miLista):
 def imprimir_lista(*miLista):
     print("Lista original: ", miLista[0]) 
 
-def imprimir_nombres(*miLista):
-    for i in miLista[0]:
-        print(i)
 
 imprimir_lista(lista)
 nuevaLista = filtro_nombres(lista)
